@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "upstream pullrequest suppressor for GitHub",
+  "description": "Suppress PullRequest to upstream repository",
+  "version": "0.0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "lib/jquery-2.1.3.min.js",
+        "src/app.js"
+      ]
+    }
+  ]
+}

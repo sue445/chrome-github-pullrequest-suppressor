@@ -7,12 +7,12 @@ function showStatus(status){
 
 $(function(){
   $("#save_button").click(function(){
-    chrome.storage.local.set({repository: $("#repositories").val()}, function(){
+    chrome.storage.local.set({repositories: $("#repositories").val()}, function(){
       showStatus("Options Saved.");
     });
   });
 
-  chrome.storage.local.get({repository: ""}, function(result){
-    $("#repositories").val(result.repository);
+  chrome.storage.local.get({repositories: ""}, function(config){
+    $("#repositories").val(config.repositories);
   });
 });

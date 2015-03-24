@@ -5,6 +5,10 @@
   "description": "Suppress PullRequest to upstream repository",
   "version": "0.0.1",
 
+  "permissions": [
+    "storage"
+  ],
+
   "options_page": "options.html",
 
   "content_scripts": [

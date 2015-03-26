@@ -1,5 +1,6 @@
 var disablePullRequestButton = function(selector){
-  $(selector).attr({disabled: "disabled"}).text("Alert: You can not create PR to other repository");
+  $(selector).attr({disabled: "disabled"}).
+    text("Alert: You can not create PR to other repository");
 };
 
 chrome.storage.local.get(["repositories"], function (config) {

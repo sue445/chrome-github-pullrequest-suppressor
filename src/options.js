@@ -1,9 +1,9 @@
-function showStatus(status){
+var showStatus = function(status){
   $("#status").text(status);
   setTimeout(function() {
     $("#status").text("");
   }, 750);
-}
+};
 
 $(function(){
   $("#save_button").click(function(){

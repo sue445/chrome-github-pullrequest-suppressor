@@ -1,3 +1,7 @@
+var disablePullRequestButton = function(selector){
+  $(selector).attr({disabled: "disabled"}).text("Alert: You can not create PR to other repository");
+};
+
 chrome.storage.local.get(["repositories"], function (config) {
   var head_fork_repository = $(".fork-suggester span[title^=head]").text();
   var base_fork_repository = $(".fork-suggester span[title^=base]").text();
@@ -13,6 +17,7 @@ chrome.storage.local.get(["repositories"], function (config) {
   };
 
   if (head_fork_repository != base_fork_repository && is_match_reepository(head_fork_repository)) {
-    console.log(head_fork_repository + " is mis-match");
+    disablePullRequestButton(".compare-pr-placeholder button");
+    disablePullRequestButton("form.new-pr-form button");
   }
 });

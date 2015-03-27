@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "upstream pullrequest suppressor for GitHub",
+  "name": "Upstream PullRequest Suppressor for GitHub",
   "description": "Suppress PullRequest to upstream repository",
   "version": "0.0.1",
 

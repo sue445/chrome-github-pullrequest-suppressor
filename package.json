@@ -1,5 +1,5 @@
 {
-  "name": "chrome-github-upstream-pullrequest-suppressor",
+  "name": "Upstream PullRequest Suppressor for GitHub",
   "version": "0.0.1",
   "description": "Suppress PullRequest to upstream repository",
   "main": "index.js",

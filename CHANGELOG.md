@@ -1,8 +1,8 @@
 # Change Log
 
-## [Unreleased](https://github.com/sue445/chrome-github-pullrequest-suppressor/tree/HEAD)
+## [0.1.0](https://github.com/sue445/chrome-github-pullrequest-suppressor/tree/0.1.0) (2015/04/01)
 
-[Full Changelog](https://github.com/sue445/chrome-github-pullrequest-suppressor/compare/0.0.1...HEAD)
+[Full Changelog](https://github.com/sue445/chrome-github-pullrequest-suppressor/compare/0.0.1...0.1.0)
 
 **Closed issues:**
 

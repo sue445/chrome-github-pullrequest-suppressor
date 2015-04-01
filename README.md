@@ -1,7 +1,7 @@
 # PullRequest Suppressor for GitHub
 Suppress PullRequest to other repository
 
-[![Code Climate](https://codeclimate.com/github/sue445/chrome-github-upstream-pullrequest-suppressor/badges/gpa.svg)](https://codeclimate.com/github/sue445/chrome-github-upstream-pullrequest-suppressor)
+[![Code Climate](https://codeclimate.com/github/sue445/chrome-github-pullrequest-suppressor/badges/gpa.svg)](https://codeclimate.com/github/sue445/chrome-github-pullrequest-suppressor)
 
 ![compare](doc/compare.gif)
 

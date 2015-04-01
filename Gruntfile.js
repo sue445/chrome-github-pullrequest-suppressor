@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
     'chrome-extension': {
       options: {
-        name: "chrome-github-upstream-pullrequest-suppressor",
+        name: "chrome-github-pullrequest-suppressor",
         version: manifest.version,
         id: "aehgkgapfagaljikampcebpacdcpkbfc",
         chrome: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",

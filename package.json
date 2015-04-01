@@ -1,7 +1,7 @@
 {
-  "name": "Upstream PullRequest Suppressor for GitHub",
+  "name": "PullRequest Suppressor for GitHub",
   "version": "0.0.1",
-  "description": "Suppress PullRequest to upstream repository",
+  "description": "Suppress PullRequest to other repository",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

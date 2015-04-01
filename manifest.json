@@ -4,7 +4,7 @@
   "name": "PullRequest Suppressor for GitHub",
   "short_name": "pullrequest-suppressor",
   "description": "Suppress PullRequest to other repository",
-  "version": "0.0.1",
+  "version": "0.1.0",
 
   "permissions": [
     "storage"
